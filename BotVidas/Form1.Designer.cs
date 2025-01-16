@@ -50,7 +50,7 @@
             this.textBox1.AcceptsTab = true;
             this.textBox1.AccessibleRole = System.Windows.Forms.AccessibleRole.TitleBar;
             this.textBox1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(298, 285);
+            this.textBox1.Location = new System.Drawing.Point(592, 485);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(103, 30);
             this.textBox1.TabIndex = 0;
@@ -60,7 +60,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(76, 288);
+            this.label1.Location = new System.Drawing.Point(370, 488);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(199, 24);
             this.label1.TabIndex = 1;
@@ -72,7 +72,7 @@
             this.Cancelar.BackColor = System.Drawing.Color.Red;
             this.Cancelar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Cancelar.ForeColor = System.Drawing.Color.Black;
-            this.Cancelar.Location = new System.Drawing.Point(336, 356);
+            this.Cancelar.Location = new System.Drawing.Point(630, 556);
             this.Cancelar.Name = "Cancelar";
             this.Cancelar.Size = new System.Drawing.Size(131, 46);
             this.Cancelar.TabIndex = 2;
@@ -86,7 +86,7 @@
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.button2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(569, 356);
+            this.button2.Location = new System.Drawing.Point(863, 556);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(127, 46);
             this.button2.TabIndex = 3;
@@ -104,7 +104,7 @@
             // 
             this.button3.BackColor = System.Drawing.Color.Silver;
             this.button3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(426, 282);
+            this.button3.Location = new System.Drawing.Point(720, 482);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(112, 37);
             this.button3.TabIndex = 7;
@@ -116,7 +116,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(668, 288);
+            this.label3.Location = new System.Drawing.Point(962, 488);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(240, 24);
             this.label3.TabIndex = 8;
@@ -127,7 +127,7 @@
             // 
             this.labelTiempo.AutoSize = true;
             this.labelTiempo.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTiempo.Location = new System.Drawing.Point(916, 288);
+            this.labelTiempo.Location = new System.Drawing.Point(1210, 488);
             this.labelTiempo.Name = "labelTiempo";
             this.labelTiempo.Size = new System.Drawing.Size(65, 24);
             this.labelTiempo.TabIndex = 9;
@@ -149,7 +149,7 @@
             this.dataGridViewLog.Name = "dataGridViewLog";
             this.dataGridViewLog.ReadOnly = true;
             this.dataGridViewLog.RowHeadersWidth = 51;
-            this.dataGridViewLog.Size = new System.Drawing.Size(1000, 249);
+            this.dataGridViewLog.Size = new System.Drawing.Size(1607, 442);
             this.dataGridViewLog.TabIndex = 11;
             // 
             // DateTime
@@ -175,7 +175,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1037, 440);
+            this.ClientSize = new System.Drawing.Size(1639, 640);
             this.Controls.Add(this.dataGridViewLog);
             this.Controls.Add(this.labelTiempo);
             this.Controls.Add(this.label3);
